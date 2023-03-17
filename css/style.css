@@ -5,3 +5,34 @@ body{
     color: aqua;
     text-align: center;
   }
+  header{
+    width:100%;
+    background-color: antiquewhite;
+  }
+
+.Logo{
+  color: aqua;
+  text-align: center;
+  font-size: 1.4em;
+}
+ nav{
+  color: aquamarine;
+  text-align: center;
+  font-size: 1.4em;
+}
+.banner{
+  width: 100%;
+}
+.container{
+  background-color: azure;
+  width: 80%;
+  margin: auto;
+}
+
+footer{
+  background-color: blue;
+  color: beige;
+  font-size: 1.3em;
+  text-align: center;
+  
+}
