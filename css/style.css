@@ -1,13 +1,27 @@
 body{
     background-color: rgb(207, 206, 140);
   }
-  h1{
+  h1,h2{
     color: aliceblue;
     text-align: center;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
   }
+  p{
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    line-height: 1.5;
+    font-size: 1.2em;
+  }
+
   header{
     width:100%;
     background-color: antiquewhite;
+    padding: 2%;
+  }
+  .listadomeio li{
+    line-height: 1.5;
+    font-size: 1.2em;
   }
 
 .Logo{
