@@ -1,22 +1,29 @@
 body{
-    background-color: rgb(207, 206, 140);
+
+    background-color: #595959;
   }
-  h1,h2{
-    color: aliceblue;
+ h1,h2,h3{
+  color: 300;
     text-align: center;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
-  }
+    padding-top: 2%;
+    padding-bottom: 2%;
+ }
+    
+  
   p{
     padding-top: 1%;
     padding-bottom: 0.5%;
     line-height: 1.5;
     font-size: 1.2em;
+  text-align : justificar;
+  font-family : 'Bebas Neue' , cursiva;
+
+  
   }
 
   header{
     width:100%;
-    background-color: antiquewhite;
+    background-color: #505958;
     padding: 2%;
   }
   .listadomeio li{
@@ -25,7 +32,7 @@ body{
   }
 
 .Logo{
-  color: rgb(255, 0, 149);
+  color: #95A6A3;
   text-align: center;
   font-size: 1.4em;
 }
@@ -44,9 +51,10 @@ body{
 }
 
 footer{
-  background-color: rgb(255, 0, 149);
-  color: beige;
+  background-color: #DEB887
+  color  #DEB887;
   font-size: 1.3em;
   text-align: center;
+  
   
 }
