@@ -31,6 +31,11 @@ body{
     font-size: 1.2em;
   }
 
+  .imgmeio{
+
+    width: 50%;
+  }
+
 .Logo{
   color: #95A6A3;
   text-align: center;
@@ -50,6 +55,13 @@ body{
   margin: auto;
 }
 
+h3{
+  color: 300;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+}
 footer{
   background-color: #DEB887
   color  #DEB887;
