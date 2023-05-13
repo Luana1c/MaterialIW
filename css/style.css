@@ -2,23 +2,35 @@ body{
 
     background-color: #595959;
   }
- h1,h2,h3{
-  color: 300;
-    text-align: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
- }
-    
-  
-  p{
-    padding-top: 1%;
-    padding-bottom: 0.5%;
-    line-height: 1.5;
-    font-size: 1.2em;
-  text-align : justificar;
-  font-family : 'Bebas Neue' , cursiva;
+h1{
+  color: #000;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  line-height: 1.5;
+  font-family: 'Ysabeau', sem serifa;
+font-size: 200%;
 
-  
+} 
+h2{
+  color: #000;
+  text-align: center;
+  padding-top: 1.5%;
+  padding-top: 1.5%;
+  line-height: 1,5;
+  margin: 2%;
+  font-family: 'Ysabeau', sem serifa;
+  font-size: 150%;
+}   
+p{
+  color: #705959;
+  padding-top: 1%;
+  padding-bottom: 0.5%;
+  line-height: 1.5;
+  font-size: 1.2em;
+  text-align : justificar;
+  text-indent: 25px;
+  font-family: 'Merriweather', serif;
   }
 
   header{
@@ -27,13 +39,23 @@ body{
     padding: 2%;
   }
   .listadomeio li{
+    color: #705959;
     line-height: 1.5;
     font-size: 1.2em;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+  }
+  .lado{
+    color: #705959;
+    line-height: 1.5;
+    font-size: 1.2em;
+    font-family: 'Merriweather', serif;
   }
 
   .imgmeio{
 
-    width: 50%;
+    width: 250px;
+    
   }
 
 .Logo{
@@ -42,7 +64,7 @@ body{
   font-size: 1.4em;
 }
  nav{
-  color:rgb(255, 0, 149); 
+  color: #000;
   text-align: center;
   font-size: 1.4em;
 }
@@ -50,23 +72,21 @@ body{
   width: 100%;
 }
 .container{
-  background-color: azure;
+  background-color: #A6A6A6;
   width: 80%;
   margin: auto;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+section{
+  background-color: #D9D9D9;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
-h3{
-  color: 300;
-  text-align: center;
-  padding-top: 2%;
-  padding-bottom: 2%;
-
-}
 footer{
-  background-color: #DEB887
-  color  #DEB887;
+  background-color: #262626;
+  color:#705959;
   font-size: 1.3em;
   text-align: center;
-  
-  
 }
