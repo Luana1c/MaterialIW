@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
 
     background-color: #595959;
@@ -33,26 +36,26 @@ p{
   font-family: 'Merriweather', serif;
   }
 
-  header{
+header{
     width:100%;
     background-color: #505958;
     padding: 2%;
-  }
-  .listadomeio li{
+}
+.listadomeio li{
     color: #705959;
     line-height: 1.5;
     font-size: 1.2em;
     text-align: center;
     font-family: 'Merriweather', serif;
-  }
-  .lado{
+}
+.lado{
     color: #705959;
     line-height: 1.5;
     font-size: 1.2em;
     font-family: 'Merriweather', serif;
-  }
+}
 
-  .imgmeio{
+.imgmeio{
 
     width: 250px;
     
@@ -90,3 +93,21 @@ footer{
   font-size: 1.3em;
   text-align: center;
 }
+a:link {
+  text-decoration: none;
+  color: #FF69B4;
+  }
+a:visited {
+  text-decoration: none;
+  color: #FFB6C1;
+}
+    
+a:hover {
+  text-decoration: none;
+  color: #FA8072;
+}
+    
+a:active {
+  text-decoration: none;
+  color: #C71585;
+  }
