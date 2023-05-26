@@ -111,3 +111,23 @@ a:active {
   text-decoration: none;
   color: #C71585;
   }
+
+  .linha{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+  }
+ 
+  .col-6{
+    width: 50%;
+  }
+
+   /* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 750px) {
+  .linha {
+    flex-direction: column;
+  }
+  .col-6 {
+    width: 100%;
+}
+}
