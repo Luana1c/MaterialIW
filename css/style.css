@@ -13,6 +13,9 @@ h1{
   line-height: 1.5;
   font-family: 'Ysabeau', sem serifa;
   font-size: 200%;
+  
+  text-shadow: 2px 2px 4px #000000;
+
 
 } 
 h2{
@@ -27,12 +30,14 @@ h2{
 }   
 h3{
   color: #705959;
+  text-shadow: 2px 1px #C71585;
   text-align: center;
   padding-top: 1.5%;
   padding-top: 1.5%;
   line-height: 1,5; 
   font-family: 'Kanit', sans-serif;
   font-size: 100%;
+  
 }
 p{
   color: #705959;
@@ -52,16 +57,20 @@ header{
 }
 .listadomeio li{
     color: #705959;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     line-height: 1.5;
     font-size: 1.2em;
     text-align: center;
     font-family: 'Merriweather', serif;
+
 }
 .lado{
     color: #705959;
     line-height: 1.5;
     font-size: 1.2em;
+    text-align: center;
     font-family: 'Merriweather', serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .imgmeio{
@@ -70,6 +79,8 @@ header{
   display: block;
   margin-left: auto;
   margin-right: auto;
+
+
   }
 
 .Logo{
@@ -153,4 +164,8 @@ a:active {
   margin-left: auto;
   margin-right: auto; 
   color: #595959;
+}
+.cor{
+  color: #705959; 
+
 }
