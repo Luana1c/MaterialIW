@@ -20,6 +20,7 @@ h1{
 } 
 h2{
   color: #000;
+  text-shadow: 2px 2px 4px #000000;
   text-align: center;
   padding-top: 1.5%;
   padding-top: 1.5%;
@@ -29,15 +30,25 @@ h2{
   font-size: 150%;
 }   
 h3{
-  color: #705959;
-  text-shadow: 2px 1px #C71585;
+  color: #534f4f;
   text-align: center;
-  padding-top: 1.5%;
-  padding-top: 1.5%;
-  line-height: 1,5; 
+  padding-top: 3%;
+  padding-top: 3%;
+  line-height: 3; 
+  margin: 2%;
   font-family: 'Kanit', sans-serif;
   font-size: 100%;
   
+}
+h4{
+  color: #705959;
+  text-shadow: 1.8px 1.6px #8d7283;
+  text-align: center;
+  padding-top: 2%;
+  padding-top: 2%;
+  line-height: 2; 
+  font-family: 'Kanit', sans-serif;
+  font-size: 100%;
 }
 p{
   color: #705959;
@@ -56,7 +67,7 @@ header{
     padding: 2%;
 }
 .listadomeio li{
-    color: #705959;
+    color: #615454;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     line-height: 1.5;
     font-size: 1.2em;
@@ -79,10 +90,25 @@ header{
   display: block;
   margin-left: auto;
   margin-right: auto;
-
-
   }
-
+.imgdireita{
+float: right;
+}
+.imgesquerda{
+float: left;
+}
+.imgtam{
+width: 30%;
+margin-left: 2%;
+}
+.imgtam1{
+  width: 80%;
+  margin-left: 4%; 
+}
+.imgtam2{
+  width: 25%;
+  margin-left: 1%;  
+}
 .Logo{
   color: #95A6A3;
   text-align: center;
@@ -104,7 +130,7 @@ header{
   padding-right: 2%;
 }
 section{
-  background-color: #D9D9D9;
+  background-color: #c4c3c3;
   padding-left: 2%;
   padding-right: 2%;
 }
@@ -168,4 +194,7 @@ a:active {
 .cor{
   color: #705959; 
 
+}
+.coricones{
+  background-color: #262626; 
 }
