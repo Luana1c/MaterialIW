@@ -67,12 +67,12 @@ header{
     padding: 2%;
 }
 .listadomeio li{
-    color: #615454;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    line-height: 1.5;
-    font-size: 1.2em;
-    text-align: center;
-    font-family: 'Merriweather', serif;
+  color: #615454;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  line-height: 1.5;
+  font-size: 1.2em;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 
 }
 .lado{
@@ -101,13 +101,10 @@ float: left;
 width: 30%;
 margin-left: 2%;
 }
-.imgtam1{
-  width: 80%;
-  margin-left: 4%; 
-}
+
 .imgtam2{
   width: 25%;
-  margin-left: 1%;  
+  margin-left: 1.5%;  
 }
 .Logo{
   color: #95A6A3;
@@ -197,4 +194,7 @@ a:active {
 }
 .coricones{
   background-color: #262626; 
+}
+table, th, td {
+  border:1px solid black;
 }
