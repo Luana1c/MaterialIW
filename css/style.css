@@ -67,6 +67,11 @@ header{
     background-color: #505958;
     padding: 2%;
 }
+.headercor{
+    background-color: #BF281B;
+    text-align: center;
+    font-size: 1.4em;
+}
 
 .listadomeio li{
    color: #615454;
@@ -78,12 +83,12 @@ header{
 }
 
 .lado{
-    color: #705959;
-    line-height: 1.5;
-    font-size: 1.2em;
-    text-align: center;
-    font-family: 'Merriweather', serif;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   color: #705959;
+   line-height: 1.5;
+   font-size: 1.2em;
+   text-align: center;
+   font-family: 'Merriweather', serif;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .imgmeio{
@@ -214,9 +219,17 @@ a:active {
    background-color: #262626; 
 }
 
+ 
 table, th, td {
-   border:1px solid black;
+   border:1px solid rgb(163, 147, 147);
+   text-align: left;
+   padding: 6.5px;
+   width: 100%;
 }
+
+tr:nth-child(even) {
+   background-color:	#C89B7F;
+ } 
 
 .tituloinformativo{
    color: #592A0E;
