@@ -80,7 +80,8 @@ header{
    font-size: 1.2em;
    text-align: center;
    font-family: 'Merriweather', serif;
-   list-style-image: ;
+   list-style-image: url(../img/star.png);
+   padding-right: 4.5%;
 }
 
 .lado{
@@ -90,6 +91,7 @@ header{
    text-align: center;
    font-family: 'Merriweather', serif;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   list-style-image: url(../img/star.png);
 }
 
 .imgmeio{
@@ -220,14 +222,20 @@ a:active {
    background-color: #262626; 
 }
 
- 
-table, th, td {
-   border:1px solid rgb(163, 147, 147);
-   text-align: left;
-   padding: 6.5px;
-   width: 100%;
+table{
+   border-collapse: collapse;
+   width: 90%;
+   margin: auto;
+   background-color: solid rgb(163, 147, 147);;
 }
-
+ 
+td, th{
+   border: 2.5px solid #d6ac75;
+   text-align: center;
+   padding: 8px;
+   border-style: dashed;
+}
+ 
 tr:nth-child(even) {
    background-color:	#C89B7F;
  } 
