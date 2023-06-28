@@ -110,15 +110,26 @@ header{
 }
 
 .imgtam{
-   width: 30%;
+   width: 25%;
+   margin-left: 2%;
+}
+.imgtam1{
+   width: 85%;
    margin-left: 2%;
 }
 
 .imgtam2{
-   width: 25%;
-   margin-left: 1.5%;  
+   width: 15%;
+   margin-left: 4%;  
+}
+.imgtamlivro{
+   width: 20%;
+   margin-left: 2%; 
 }
 
+.centerp{
+   text-align: center;  
+}
 .Logo{
    color: #95A6A3;
    text-align: center;
@@ -222,23 +233,21 @@ a:active {
    background-color: #262626; 
 }
 
-table{
+ table {
+   font-family: arial, sans-serif;
    border-collapse: collapse;
-   width: 90%;
-   margin: auto;
-   background-color: solid rgb(163, 147, 147);;
-}
+   width: 100%;
+ }
  
-td, th{
-   border: 2.5px solid #d6ac75;
-   text-align: center;
+ td, th {
+   border: 1px solid #daa188;
+   text-align: left;
    padding: 8px;
-   border-style: dashed;
-}
+ }
  
-tr:nth-child(even) {
-   background-color:	#C89B7F;
- } 
+ tr:nth-child(even) {
+   background-color: #c57b3f;
+ }
 
 .tituloinformativo{
    color: #592A0E;
