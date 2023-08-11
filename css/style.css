@@ -135,6 +135,9 @@ header{
    text-align: center;
    font-size: 1.4em;
 }
+.logo-topo{
+   width: 15%;
+}
 
  nav{
    color: #000;
