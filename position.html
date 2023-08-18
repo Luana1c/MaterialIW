@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+</head>
+<body class="container">
+    <nav class="menu">
+        <ul>
+           <li> <a href="index.html">Home</a></li>
+        </ul>
+        <h1>CSS posição</h1>
+     </nav>
+     <h2>Image Text</h2>
+     <p>Add some text to an image in the top left corner:</p>
+ <div class="esquerda">
+<h1>esquerda</h1>
+ </div>
+<div class="direita">
+<h1>direita</h1>
+
+<div class="esquerdaembaixo">
+    <h1>esquerda</h1>
+    
+ </div>
+
+
+
+
+ <style>
+.menu{
+ position: fixed;
+top: 0;
+text-align: center;
+right: 0;
+left: 0;
+width:100%;
+background-color: beige;
+border: 4px solid #ad2121;
+}
+.esquerda{
+ position: absolute;   
+ top: 100px;
+ left: 0;
+}
+.direita{
+position: absolute;   
+ top: 100px;
+ right: 0;    
+}
+.esquerdaembaixo{
+position: absolute;  
+bottom: 0; 
+ top: 1000px;
+ left: 0;
+}
+ 
+
+.container{
+background-image: url(img/position.jpg);
+  } 
+  body{
+    background-color: aquamarine;
+  }
+  h1{
+   
+  }
+  footer{
+   background-color: #262626;
+   color:#705959;
+   font-size: 1.3em;
+   text-align: center;
+} 
+
+ </style>
+</body>
+</html>
