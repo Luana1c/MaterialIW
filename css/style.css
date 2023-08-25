@@ -136,7 +136,7 @@ header{
    font-size: 1.4em;
 }
 .logo-topo{
-   width: 15%;
+   width: 7%;
 }
 
  nav{
@@ -146,7 +146,7 @@ header{
 }
 
 .banner{
-   width: 100%;
+   width: 10px;
 }
 
 .container{
@@ -262,4 +262,7 @@ a:active {
 
 .titulo{
    color:#BF281B;
+}
+img{
+   width: 100%;
 }
