@@ -213,16 +213,6 @@ a:active {
    width: 50%;
   }
 
-/* Responsive layout - makes a one column layout instead of a two-column layout */
-@media (max-width: 750px) {
-.linha {
-    flex-direction: column;
-}
-.col-6 {
-    width: 100%;
-}
-}
-
 .centro{
    display: flex;
    flex-flow: row wrap;
@@ -275,3 +265,29 @@ a:active {
 img{
    width: 100%;
 }
+/*criado 30/08*/
+@media screen and (min-width:650px) {
+   .bannertam{
+     margin-top: 12% 
+   }
+   header{
+      flex-direction: row;   
+   }
+   .Logo{
+    padding-top: 0.5%;  
+    padding-bottom: 0.5%;
+    text-align: left;
+    width: 120%;
+   }
+   .itens-menu ul li {
+      display: inline;
+      margin-left: 1.5%;
+   }
+   
+   .itens-menu{
+    position: absolute;  
+    right: 15%;
+    top: 30%;
+    width: 70%;
+   }
+   }

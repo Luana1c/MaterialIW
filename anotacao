@@ -1,0 +1,23 @@
+@media (max-width: 650px) {
+.linha {
+    flex-direction: column;
+}
+.col-6 {
+    width: 100%;
+}
+}
+
+   /*Faz uma alteração quando a tela fica menor*/
+   @media screen and (max-width:649px) { 
+    
+   }  
+ 
+   .bannertam{
+     margin-top: 32%;
+   }
+ 
+   .logo{
+     padding-top: 1%;
+     padding-bottom: 1%;
+     text-align: center;
+   }
