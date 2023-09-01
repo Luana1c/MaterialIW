@@ -266,7 +266,7 @@ img{
    width: 100%;
 }
 /*criado 30/08*/
-@media screen and (min-width:650px) {
+@media screen and (max-width:650px) {
    .bannertam{
      margin-top: 12% 
    }
@@ -274,14 +274,10 @@ img{
       flex-direction: row;   
    }
    .Logo{
-    padding-top: 0.5%;  
-    padding-bottom: 0.5%;
-    text-align: left;
-    width: 120%;
+   top: 0%;
    }
    .itens-menu ul li {
-      display: inline;
-      margin-left: 1.5%;
+      margin-left: 1%;
    }
    
    .itens-menu{
@@ -289,5 +285,34 @@ img{
     right: 15%;
     top: 30%;
     width: 70%;
+   font-size: 10%;
    }
    }
+   @media screen and (min-width:651px) {
+      .bannertam{
+         padding-left: 0%;
+        padding-right: 0%;
+        margin-top: 12%;
+      }
+      header{
+         flex-direction: row;   
+      }
+      .Logo{
+       padding-top: 0.5%;  
+       padding-bottom: 0.5%;
+       text-align: left;
+       width: 120%;
+      }
+      .itens-menu ul li {
+         display: inline;
+         margin-left: 1%;
+      }
+      
+      .itens-menu{
+       position: absolute;  
+       right: 15%;
+       top: 30%;
+       width: 70%;
+       font-size: 120%;
+      }
+      }
