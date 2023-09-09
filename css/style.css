@@ -155,7 +155,7 @@ header{
 }
 
 .banner{
-   width: 10px;
+   width: 100%;
 }
 
 .container{
@@ -257,6 +257,8 @@ a:active {
 
 .corsection{
    background-color: #F2B47E;
+   padding-left: 0%;
+   padding-right: 0%;
 }
 
 .titulo{
@@ -268,26 +270,15 @@ img{
 /*criado 30/08*/
 @media screen and (max-width:650px) {
    .bannertam{
-     margin-top: 12% 
+     margin-top: 40% 
    }
-   header{
-      flex-direction: row;   
-   }
+
    .Logo{
-   top: 0%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      text-align: center;
    }
-   .itens-menu ul li {
-      margin-left: 1%;
-   }
-   
-   .itens-menu{
-    position: absolute;  
-    right: 15%;
-    top: 30%;
-    width: 70%;
-   font-size: 10%;
-   }
-   }
+}
    @media screen and (min-width:651px) {
       .bannertam{
          padding-left: 0%;
@@ -301,7 +292,8 @@ img{
        padding-top: 0.5%;  
        padding-bottom: 0.5%;
        text-align: left;
-       width: 120%;
+       width: 100%;
+       padding-left: 5.5%;
       }
       .itens-menu ul li {
          display: inline;
@@ -316,3 +308,23 @@ img{
        font-size: 120%;
       }
       }
+   .formulario{
+      background-color: #592A0E;
+      
+   }
+   .organizar{
+      background-color: #8d7283;
+      text-align: center;
+   }
+   .row {
+      display: flex;
+      justify-content: center;
+      align-items: center;}
+      .card {
+         border-radius: 5px;
+         box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+         padding: 30px;
+         margin: 20px;
+         width: 400px;
+         transition: all 0.3s ease-out;
+       }

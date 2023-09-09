@@ -14,11 +14,11 @@
 </head>
 <body class="corcontainer">
 
-  <header class="headercor">
-   <div>
-     <h1>Logo</h1>
+  <header class="headercor fixo">
+   <div class="Logo">
+    <a href="livros.html"><img class="logo-topo" src="img/logotopo/logodosite.avif" alt=""></a>
    </div>
-   <nav>
+   <nav style="font-size: 90%;" class="itens-menu">
      <ul>
        <li><a href="index.html">Home</a></li>
        <li><a href="livros.html">Livros</a></li>
@@ -29,7 +29,49 @@
      </ul>
    </nav>
   </header>
-  <figure>
+  <figure class ="bannertam">
+    <style>
+      @media screen and (max-width:650px) {
+   .bannertam{
+     margin-top: 40% 
+   }
+
+   .Logo{
+      padding-top: 1%;
+      padding-bottom: 1%;
+      text-align: center;
+   }
+}
+   @media screen and (min-width:651px) {
+      .bannertam{
+         padding-left: 0%;
+        padding-right: 0%;
+        margin-top: 12%;
+      }
+      header{
+         flex-direction: row;   
+      }
+      .Logo{
+       padding-top: 0.5%;  
+       padding-bottom: 0.5%;
+       text-align: left;
+       width: 100%;
+       padding-left: 5.5%;
+      }
+      .itens-menu ul li {
+         display: inline;
+         margin-left: 1%;
+      }
+      
+      .itens-menu{
+       position: absolute;  
+       right: 15%;
+       top: 30%;
+       width: 70%;
+       font-size: 120%;
+      }
+      }
+    </style>
    <img class="banner" src="img/livraria 500.png" alt="livros que deram origem a filmes" > 
   </figure> 
   <div class="container corcontainer">
