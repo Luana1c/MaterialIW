@@ -268,9 +268,7 @@ img{
 }
 /*tela `pequena` e para os videos ficarem um em cima do outro*/
 @media (max-width:650px) {
-.linha {
-flex-direction: column;
-}
+
 .col-6 {
 width: 100%;
 }
@@ -316,6 +314,11 @@ background-color: #262626;
 }
 .Desenvolvido{
 font-size: 40%;
+}
+.pp{
+font-size: 5%;
+text-align: center;
+text-decoration-color: #505958;
 }
 }
 /*tela `grande`*/
@@ -381,4 +384,4 @@ font-size: 5%;
 text-align: center;
 text-decoration-color: #505958;
 }
-      }
+}
