@@ -212,7 +212,6 @@ a:active {
 .col-6{
    width: 50%;
   }
-
 .centro{
    display: flex;
    flex-flow: row wrap;
@@ -267,8 +266,18 @@ a:active {
 img{
    width: 100%;
 }
-/*criado 30/08*/
+/*tela `pequena` e para os videos ficarem um em cima do outro*/
+@media (max-width:650px) {
+.linha {
+flex-direction: column;
+}
+.col-6 {
+width: 100%;
+}
+}
+ /*tela `pequena`*/
 @media screen and (max-width:650px) {
+ /*estrutura para menu fixo*/
 .bannertam{
 margin-top: 40% 
 }
@@ -277,82 +286,99 @@ padding-top: 1%;
 padding-bottom: 1%;
 text-align: center;
 }
+  /*contato*/
 .contato{
-   text-align: center;
+text-align: center;
 border-style: inset;
 }
 input{
-   text-align: center;
+text-align: center;
 }
 label{
 text-align: left;
 }
 input[type=text] {
-   width: 50%;
-   padding: 12px 20px;
-   margin: 3px 0;
-   box-sizing: border-box;
-   border: 2px solid rgba(17, 0, 255, 0.062);
-   border-radius: 9px;
- }
- .git{
-   width: 170%;
-
- }
- .insta{
-   width: 170%;
- }
+width: 50%;
+padding: 12px 20px;
+margin: 3px 0;
+box-sizing: border-box;
+border: 2px solid rgba(17, 0, 255, 0.062);
+border-radius: 9px;
 }
-
-
-
-   @media screen and (min-width:651px) {
-      .bannertam{
-         padding-left: 0%;
-        padding-right: 0%;
-        margin-top: 12%;
-      }
-      header{
-         flex-direction: row;   
-      }
-      .Logo{
-       padding-top: 0.5%;  
-       padding-bottom: 0.5%;
-       text-align: left;
-       width: 100%;
-       padding-left: 5.5%;
-      }
-      .itens-menu ul li {
-         display: inline;
-         margin-left: 1%;
-      }
-      
-      .itens-menu{
-       position: absolute;  
-       right: 15%;
-       top: 30%;
-       width: 70%;
-       font-size: 120%;
-      }
-      .contato{
-         text-align: center;
-         border-style: inset;
-      }
-      input{
-         text-align: center;
-      }
-      label{
-      text-align: left;
-      }
-      input[type=text] {
-         width: 50%;
-         padding: 12px 20px;
-         margin: 3px 0;
-         box-sizing: border-box;
-         border: 2px solid rgb(17, 0, 255, 0.062);
-         border-radius: 9px;
-       }
-       .git{
-   
-       }
+ /*footer*/
+.col-6f{
+width: 5%;
+margin-left: 20%;
+margin-right: 20%;
+}
+.corfooter{
+background-color: #262626;
+}
+.Desenvolvido{
+font-size: 40%;
+}
+}
+/*tela `grande`*/
+@media screen and (min-width:651px) {
+/*banner+menu*/
+.bannertam{
+padding-left: 0%;
+padding-right: 0%;
+margin-top: 12%;
+}
+header{
+flex-direction: row;   
+}
+.Logo{
+padding-top: 0.5%;  
+padding-bottom: 0.5%;
+text-align: left;
+width: 100%;
+padding-left: 5.5%;
+}
+.itens-menu ul li {
+display: inline;
+margin-left: 1%;
+}
+.itens-menu{
+position: absolute;  
+right: 15%;
+top: 30%;
+width: 70%;
+font-size: 120%;
+}
+/*contato*/
+.contato{
+text-align: center;
+border-style: inset;
+}
+input{
+text-align: center;
+}
+label{
+text-align: left;
+}
+input[type=text] {
+width: 50%;
+padding: 12px 20px;
+margin: 3px 0;
+box-sizing: border-box;
+border: 2px solid rgb(17, 0, 255, 0.062);
+border-radius: 9px;
+}
+/*footer*/
+.col-6f{
+width: 5%;
+margin-left: 20%;
+margin-right: 20%;
+}
+.corfooter{
+background-color: #262626;
+}
+/*para "esconder" a position*/
+.pp{
+font-size: 5%;
+text-align: center;
+text-decoration-color: #505958;
+}
       }
